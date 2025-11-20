@@ -13,6 +13,7 @@ const navItems = [
     { name: "Education", path: "/education" },
     { name: "Achievements", path: "/achievement" },
     { name: "Skills", path: "/skills" },
+    { name: "Contact", path: "/contact" },
 ];
 
 export default function Header() {

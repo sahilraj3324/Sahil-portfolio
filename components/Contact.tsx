@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Github, Linkedin, Twitter } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 import Link from "next/link";
 
 export default function Contact() {
@@ -36,7 +36,7 @@ export default function Contact() {
                     className="flex justify-center gap-6"
                 >
                     <Link
-                        href="mailto:contact@example.com"
+                        href="mailto:rajsahil3324@gmail.com"
                         className="flex items-center gap-2 px-8 py-4 bg-white text-black rounded-full font-bold hover:bg-neutral-200 transition-colors"
                     >
                         <Mail size={20} />
@@ -48,7 +48,6 @@ export default function Contact() {
                     {[
                         { icon: Github, href: "https://github.com/sahilraj3324" },
                         { icon: Linkedin, href: "https://www.linkedin.com/in/sahilraj3324/" },
-                        { icon: Twitter, href: "#" },
                     ].map((social, index) => (
                         <Link
                             key={index}
