@@ -103,7 +103,7 @@ export default function Skills() {
                                         <img
                                             src={skill.icon}
                                             alt={skill.name}
-                                            className="w-full h-full object-contain filter grayscale group-hover:grayscale-0 transition-all duration-300"
+                                            className="w-full h-full object-contain filter group-hover:grayscale-0 transition-all duration-300"
                                         />
                                     </div>
                                     <span className="text-sm font-medium text-neutral-400 group-hover:text-white transition-colors">
