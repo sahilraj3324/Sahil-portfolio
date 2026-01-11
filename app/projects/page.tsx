@@ -9,8 +9,8 @@ const projects = [
         title: "AI Job Discovery Platform",
         description: "Developed an AI-driven job discovery system that aggregates jobs directly from company career pages and Google Jobs, providing structured job data and direct apply links. Built an agent-based backend using NestJS, MongoDB, and OpenAI API to parse, normalize, and deduplicate job postings at scale. Implemented automated career-page and ATS detection to support scalable onboarding of hundreds of companies with minimal manual configuration.",
         tags: ["NestJS", "TypeScript", "MongoDB", "OpenAI API", "Next.js", "Tailwind CSS"],
-        github: "#",
-        demo: "#",
+        github: "https://github.com/sahilraj3324/job-agent-backend",
+        demo: "https://job-agent-lovat.vercel.app/",
         stars: 156,
         forks: 42,
         category: "AI Platform"
