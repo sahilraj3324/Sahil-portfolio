@@ -6,6 +6,16 @@ import Link from "next/link";
 
 const projects = [
     {
+        title: "AI Job Discovery Platform",
+        description: "Developed an AI-driven job discovery system that aggregates jobs directly from company career pages and Google Jobs, providing structured job data and direct apply links. Built an agent-based backend using NestJS, MongoDB, and OpenAI API to parse, normalize, and deduplicate job postings at scale. Implemented automated career-page and ATS detection to support scalable onboarding of hundreds of companies with minimal manual configuration.",
+        tags: ["NestJS", "TypeScript", "MongoDB", "OpenAI API", "Next.js", "Tailwind CSS"],
+        github: "#",
+        demo: "#",
+        stars: 156,
+        forks: 42,
+        category: "AI Platform"
+    },
+    {
         title: "Version Control (Nuke)",
         description: "Engineered a fully functional version control system with a CLI using Yargs. Users can manage repositories with commands like Init, add, commit, push, pull, and revert. Features a robust Node.js/Express backend with MongoDB and AWS S3 for secure file storage (90% more secure). Includes a responsive frontend built with React, Shadcn UI, and Tailwind CSS.",
         tags: ["Yargs", "Node.js", "Express", "AWS S3", "MongoDB", "React", "Shadcn UI", "Tailwind CSS"],
